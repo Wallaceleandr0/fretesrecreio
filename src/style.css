@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    color: #2D2C2E;
+}
+
+body {
+    margin: 0;
+}
+
+.servicos-bg {
+    background-color: #28292B;
+}
+

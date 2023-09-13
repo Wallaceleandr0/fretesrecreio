@@ -1,0 +1,83 @@
+h3 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 40px 0 0 0;
+    color: #fff;
+}
+
+h4 {
+    text-align: center;
+    font-size: 1.8em;
+    padding: 0;
+    margin-top: 15px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.icon-img {
+    max-width: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+.item-img {
+    margin-top: 25px;
+    justify-content: center;
+    display: flex;
+    gap: 2rem;
+    flex: 1 1 400px;
+    flex-wrap: wrap;
+}
+
+.item-img img {
+    width: 600px;
+    height: 500px;
+}
+
+.p-top {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 10px;
+    color: #fff;
+    font-size: 14px;
+}
+
+p {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.cards {
+    background-color: #fff;
+    max-width: 780px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 300px;
+    margin: 26px auto;
+}
+
+.card {
+    margin: 0 auto;
+    display: flex;
+    padding: 20px;
+    width: 250px;
+    flex-direction: column;
+}
+
+.p-h3 {
+    padding: 20px;
+    color: #fff;
+    font-size: 14px;
+}
+
+@media(max-width: 720px) {
+   h3 {
+    font-size: 30px;
+   } 
+}

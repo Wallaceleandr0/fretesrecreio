@@ -1,0 +1,22 @@
+[
+    {
+      "id": 1,
+      "imagem": "envio-rapido.png",
+      "texto": "Garantimos entregas em todo o país, proporcionando segurança e um serviço de alta qualidade em cada envio.",
+      "titulo": "FRETES"
+    },
+    {
+      "id": 2,
+      "imagem": "lado-do-caminhao.png",
+      "texto": "Confie em nós para suas mudanças: cuidamos do empacotamento, organização e içamento com excelência e rigor. Sua tranquilidade é nossa prioridade!",
+      "titulo": "MUDANÇAS"
+    },
+    {
+      "id": 2,
+      "imagem": "construcao-de-casas.png",
+      "texto": "Transportamos cargas pesadas por todo o Brasil com nossa frota de caminhões de até 11 toneladas",
+      "titulo": "TRANSPORTES"
+
+    }
+  ]
+  
