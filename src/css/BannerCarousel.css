@@ -4,8 +4,6 @@
   width: 100%;
   overflow: hidden;
   position: relative; /* Ajuste a altura conforme necessário */
-  background-position: center;
-  margin-bottom: 20px;
   max-height: 820px;
 }
 

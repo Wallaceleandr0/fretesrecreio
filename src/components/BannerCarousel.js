@@ -3,11 +3,12 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const images = [
-  "banner-1.png",
-  "banner-2.png"
-  // Adicione mais URLs de imagens conforme necessário
-];
+const isSmallScreen = window.innerWidth <= 500
+
+const images = isSmallScreen
+? ["small-banner-1.png", "small-banner-2.png"]
+: ["banner-1.png", "banner-2.png"]
+
 
 const BannerCarousel = () => {
   const settings = {
@@ -24,8 +25,9 @@ const BannerCarousel = () => {
     <div className="banner-carousel">
       <Slider {...settings}>
         {images.map((image, index) => (
-          <div key={index}>
-            <img src={image} alt={`Banner ${index + 1}`} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+          <div key={index} >
+            <img src={image} alt={`Banner ${index + 1}`} style={{ width: "100%", objectFit: "cover" }} />
+            
           </div>
         ))}
       </Slider>

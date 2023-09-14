@@ -25,15 +25,15 @@ function Servicos () {
             <h3>NOSSOS SERVIÇOS</h3>
             <p className='p-top'>Conte com nossos profissionais altamente qualificados para embalar itens de todos os tamanhos com precisão, cumprindo todas as normas de mudanças.</p>
             <div className='cards'>
-                {card.map((item) => (
-                    <Card key={item.id} card={item} />
+                {card.map((item, index) => (
+                    <Card key={index} card={item} />
                 ))}
             </div>
             <h3>COMO TRABALHAMOS</h3>
             <p className='p-h3'>Escolha a Conforte Transportadora para confiança e cuidado. Nossos veículos de grande porte e equipamentos de segurança protegem seus móveis com excelência!</p>
             <div className='item-img'>
-                {images.map((item) => (
-                    <img src={item}/>
+                {images.map((item, index) => (
+                    <img key={index} src={item}/>
                 ))}
             </div>
         </div>
