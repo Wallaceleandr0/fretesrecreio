@@ -1,9 +1,9 @@
-import Navbar from '../components/Navbar'
-import Home from '../pages/Home'
-import About from '../pages/About'
-import Services from '../pages/Services'
+import Navbar from './Navbar'
+import Home from '../../pages/Home/Home'
+import About from '../../pages/About/About'
+import Services from '../../pages/Services/Services'
 import { Routes, Route } from 'react-router-dom'
-import '../css/Header.css'
+import './Header.css'
 
 function Header () {
     return (

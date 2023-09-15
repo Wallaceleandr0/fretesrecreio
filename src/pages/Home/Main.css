@@ -71,12 +71,69 @@ p {
     flex-direction: column;
 }
 
-.p-h3 {
+.p-h3, .depoimentos p {
     padding: 20px;
     color: #fff;
     font-size: 14px;
 }
 
+.div-imgs {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.slider {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.div-imgs img {
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+div:has(> .info-google) {
+    display: flex;
+    justify-content: center;
+}
+
+.info-google {
+    max-width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 4px 5px rgba(0, 0, 0, 0.178);
+    display: block;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.google-icon {
+    max-width: 50px;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
+.profile-icon {
+    max-width: 65px;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
+.info-google h4 {
+    margin: 0;
+    font-size: 20px;
+    color: black;
+}
+
+.info-google p {
+    padding: 10px;
+    font-size: 12px;
+    color: black;
+}
 
 @media(max-width: 720px) {
    h3 {

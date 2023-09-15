@@ -1,9 +1,13 @@
 import Card from './Card'
+import './Main.css'
 import React, { useEffect, useState } from 'react';
 
-function Servicos () {
+import GoogleComment from './GoogleComment'
+
+function Main () {
 
     const [card, setCard] = useState([]);
+    const [comment, setComment] = useState([])
 
     const images = [
         "item-1.png",
@@ -19,6 +23,13 @@ function Servicos () {
           .then((jsonData) => setCard(jsonData))
           .catch((error) => console.error('Erro ao buscar dados:', error));
       }, []);
+
+    useEffect(() => {
+        fetch('/google-comment.json')
+        .then((response) => response.json())
+        .then((jsonData) => setComment(jsonData))
+        .catch((error) => console.error('Erro ao buscar dados', error))
+    })
 
     return (
         <div className='servicos-bg'>
@@ -36,8 +47,13 @@ function Servicos () {
                     <img key={index} src={item}/>
                 ))}
             </div>
+            <div className='depoimentos'>
+                <h3>DEPOIMENTOS DE NOSSOS CLIENTES!</h3>
+                <p>Esses são alguns comentários de clientes satisfeitos que nos avaliaram no Google.</p>
+                <GoogleComment />
+            </div>
         </div>
     )
 }
 
-export default Servicos
+export default Main
