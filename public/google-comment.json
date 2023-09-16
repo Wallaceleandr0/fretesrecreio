@@ -3,29 +3,33 @@
       "id": 1,
       "imgGoogle": "google-icon.png",
       "imgProfile": "profile-1.png",
-      "name": "pastor irlan",
-      "text": "Os caras são super atenciosos educado, eu tive trabalho de ótima qualidade sem palavras todas as minhas mudanças só são feitas por eles desde 2000 até hoje."
+      "name": "Erik Mascarenhas",
+      "text": "Excelente serviço, além de preço justo entregam um serviço excelente com muita educação e atenção ao cliente! Já fiz três mudanças com eles e sempre foram excelentes!!!",
+      "stars": "stars.jpg"
     },
     {
-      "id": 1,
+      "id": 2,
       "imgGoogle": "google-icon.png",
-      "imgProfile": "profile-1.png",
-      "name": "pastor irlan",
-      "text": "Os caras são super atenciosos educado, eu tive trabalho de ótima qualidade sem palavras todas as minhas mudanças só são feitas por eles desde 2000 até hoje."
+      "imgProfile": "profile-2.png",
+      "name": "Victoria Shcherbakova",
+      "text": "Recomendo de coração essa equipe maravilhosa! Eles sao de nota 1000! Muito organizados, fizeram tudo direitinho e sao muito simpáticos. Sem estresse nenhum. Meus parabéns",
+      "stars": "stars.jpg"
     },
     {
-      "id": 1,
+      "id": 3,
       "imgGoogle": "google-icon.png",
-      "imgProfile": "profile-1.png",
-      "name": "pastor irlan",
-      "text": "Os caras são super atenciosos educado, eu tive trabalho de ótima qualidade sem palavras todas as minhas mudanças só são feitas por eles desde 2000 até hoje."
+      "imgProfile": "profile-3.png",
+      "name": "Marcos Santos",
+      "text": "Serviço excelente. Superou as minhas expectativas. Quem procura um Serviço de qualidade para sua mudança pode contratar, recomendo.",
+      "stars": "stars.jpg"
     },
     {
-      "id": 1,
+      "id": 4,
       "imgGoogle": "google-icon.png",
-      "imgProfile": "profile-1.png",
-      "name": "pastor irlan",
-      "text": "Os caras são super atenciosos educado, eu tive trabalho de ótima qualidade sem palavras todas as minhas mudanças só são feitas por eles desde 2000 até hoje."
+      "imgProfile": "profile-4.png",
+      "name": "Daiana Jorkoski",
+      "text": "Atendimento experimental! Cuidadosos, eficientes e a equipe é super alinhada (trabalham com sorriso no rosto). Recomendo!",
+      "stars": "stars.jpg"
     }
   ]
   

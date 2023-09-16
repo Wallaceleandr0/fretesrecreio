@@ -84,8 +84,9 @@ p {
 }
 
 .slider {
-    max-width: 400px;
-    margin: 0 auto;
+    max-width: 1000px;
+    margin: 20px auto;
+
 }
 
 .div-imgs img {
@@ -96,10 +97,9 @@ p {
 div:has(> .info-google) {
     display: flex;
     justify-content: center;
-    background-color: gray;
 }
 
-.slick-next {
+.slick-next, .slick-prev {
     display: none !important;
 }
 
@@ -119,13 +119,13 @@ div:has(> .info-google) {
 .google-icon {
     max-width: 50px;
     display: block;
-    margin: 0 auto 15px auto;
+    margin: 0 auto 30px auto;
 }
 
 .profile-icon {
     max-width: 65px;
     display: block;
-    margin: 0 auto 15px auto;
+    margin: 0 auto 10px auto;
 }
 
 .info-google h4 {
@@ -138,6 +138,12 @@ div:has(> .info-google) {
     padding: 10px;
     font-size: 12px;
     color: black;
+}
+
+.stars {
+    max-width: 200px;
+    display: block;
+    margin: auto;
 }
 
 @media(max-width: 720px) {

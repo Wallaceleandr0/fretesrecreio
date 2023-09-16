@@ -6,19 +6,40 @@ function GoogleComment () {
     
     const [infoGoogle, setInfoGoogle] = useState([])
 
-    const settings = {};
+    const [settings, setSettings] = useState({
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    })
 
-    // dots: true,
-    // infinite: true,
-    // speed: 500,
-    // slidesToShow: 3,
-    // slidesToScroll: 3,
-    // autoplay: true,
-    // autoplaySpeed: 5000, 
+    // useEffect(() => {
+    //     const ajustarSettings = () => {
+    //         if (window.innerWidth <= 1070) {
+    //             setSettings({
+    //                 ...settings,
+    //                 dots: false,
+    //                 slidesToShow: 2,
+    //                 slidesToScroll: 2,
+    //                 autoplaySpeed: 3000,
+    //             })
+    //         } else if (window.innerWidth <= 750) {
+    //             setSettings({
+    //                 ...settings,
+    //                 dots: false,
+    //                 slidesToShow: 1,
+    //                 slidesToScroll: 1,
+    //                 autoplaySpeed: 3000, 
+    //             })
+    //         }
+    //     }
+    //     ajustarSettings()
+    //     window.addEventListener("resize", ajustarSettings)
+    // })
 
-    function ajustarSettings () {
-        
-        }
 
 useEffect(() => {
     // Realiza uma requisição para buscar o arquivo JSON
@@ -31,9 +52,10 @@ useEffect(() => {
     return (
         <Slider className='slider' {...settings}>
        {infoGoogle.map((item) => (
-        <div className='info-google'>
+        <div key={item.id} className='info-google'>
         <img src={item.imgGoogle} className='google-icon'/>
         <img src={item.imgProfile} className='profile-icon' />
+        <img src={item.stars} className='stars'/>
         <h4>{item.name}</h4>
         <p>{item.text}</p>
         </div>
