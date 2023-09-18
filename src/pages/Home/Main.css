@@ -1,6 +1,6 @@
 h3 {
     font-size: 2.5rem;
-    font-weight: 400;
+    font-weight: bold;
     display: inline-block;
     width: 100%;
     text-align: center;
@@ -45,30 +45,13 @@ img {
     max-width: 600px;
     padding: 10px;
     color: #fff;
-    font-size: 14px;
+    font-size: 17px;
 }
 
 p {
     text-align: center;
     display: block;
     margin: 0 auto;
-}
-
-.cards {
-    background-color: #fff;
-    max-width: 780px;
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1 1 300px;
-    margin: 26px auto;
-}
-
-.card {
-    margin: 0 auto;
-    display: flex;
-    padding: 20px;
-    max-width: 250px;
-    flex-direction: column;
 }
 
 .depoimentos {
@@ -163,6 +146,10 @@ div:has(> .info-google) {
    .item-img img {
     width: 150px;
     height: 150px;
+   }
+
+   .p-top {
+    font-size: 14px;
    }
 }
 

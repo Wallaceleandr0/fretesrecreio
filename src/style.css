@@ -9,19 +9,21 @@ body {
     padding: 0;
 }
 
+img {
+    width: 100%;
+}
+
 .servicos-bg {
     background-color: #28292B;
 }
 
 footer {
     border-top: 1px solid #fff;
-    margin: 0;
-    align-items: center;
-    justify-content: center;
-    display: flex;
     background-color: #28292B;
-    color: #fff;
-    padding: 20px;
-    min-height: 90px;
+}
+
+footer p {
     text-align: center;
+    color: #fff;
+    padding: 30px;
 }
