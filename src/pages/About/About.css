@@ -1,0 +1,24 @@
+img {
+    width: 100%;
+}
+
+.about {
+    margin-bottom: 40px;
+}
+
+.about img {
+    display: block;
+    margin: 50px auto;
+    box-shadow: 20px 20px 230px rgba(0, 0, 0, 0.356);
+    background-color: gray;
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.about p {
+    padding: 15px;
+    text-align: justify;
+    margin: 20px auto;
+    line-height: 40px;
+    max-width: 1200px;
+}

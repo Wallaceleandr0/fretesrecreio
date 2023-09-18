@@ -1,45 +1,25 @@
 import { useState, useEffect } from 'react'
 import Slider from "react-slick";
-
+import { useMediaQuery } from 'react-responsive'
 
 function GoogleComment () {
     
     const [infoGoogle, setInfoGoogle] = useState([])
 
-    const [settings, setSettings] = useState({
+    const isLargeScreen = useMediaQuery({ minWidth: 1070 })
+    const isSmallScreen = useMediaQuery({ maxWidth: 620 })
+
+    const settings ={
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: isLargeScreen ? 3 : isSmallScreen ? 1 : 2,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 4000,
-    })
+    }
 
-    // useEffect(() => {
-    //     const ajustarSettings = () => {
-    //         if (window.innerWidth <= 1070) {
-    //             setSettings({
-    //                 ...settings,
-    //                 dots: false,
-    //                 slidesToShow: 2,
-    //                 slidesToScroll: 2,
-    //                 autoplaySpeed: 3000,
-    //             })
-    //         } else if (window.innerWidth <= 750) {
-    //             setSettings({
-    //                 ...settings,
-    //                 dots: false,
-    //                 slidesToShow: 1,
-    //                 slidesToScroll: 1,
-    //                 autoplaySpeed: 3000, 
-    //             })
-    //         }
-    //     }
-    //     ajustarSettings()
-    //     window.addEventListener("resize", ajustarSettings)
-    // })
-
+    
 
 useEffect(() => {
     // Realiza uma requisição para buscar o arquivo JSON
