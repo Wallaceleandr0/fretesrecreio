@@ -4,20 +4,23 @@
         "icon": "email.png",
         "title": "E-mail",
         "message": "Tem alguma duvida?",
-        "contact": "felipeconforte@gmail.com"
+        "contact": "felipeconforte@gmail.com",
+        "href": "mailto:felipeconforte1@gmail.com"
     },
     {
         "id": 2,
         "icon": "telefone.png",
         "title": "Telefone",
         "message": "Você pode ligar a qualquer hora",
-        "contact": "(21) 97007-7278"
+        "contact": "(21) 97007-7278",
+        "href": "tel:+5521970077278"
     },
     {
         "id": 3,
         "icon": "whatsapp.png",
         "title": "Whatsapp",
         "message": "Precisa entrar em contato urgente?",
-        "contact": "(21) 97007-7278"
+        "contact": "(21) 97007-7278",
+        "href": "https://wa.me/5521970077278?text=Gostaria%20de%20solicitar%20um%20orçamento!"
     }
 ]

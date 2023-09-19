@@ -10,7 +10,7 @@ function Contact() {
         fetch("/contact.json")
         .then((response) => response.json())
         .then((jsonData) => setContato(jsonData))
-        .then((error) => console.error("Deu erro :(", error))
+        .catch((error) => console.error("Deu erro :(", error))
     }, [])
 
   return (
@@ -18,11 +18,11 @@ function Contact() {
         <h3>Como você prefere falar conosco?</h3>
         <div className='contact-container'>
         {contato.map((contato) => (
-            <div className='contact-block'>
+            <div className='contact-block' key={contato.id}>
                 <img src={contato.icon} />
                 <h4>{contato.title}</h4>
                 <p>{contato.message}</p>
-                <a style={{fontWeight: "bold"}} href='#'>{contato.contact}
+                <a style={{fontWeight: "bold"}} href={contato.href} target='_blank'>{contato.contact}
                 </a>
             </div>
         ))}
