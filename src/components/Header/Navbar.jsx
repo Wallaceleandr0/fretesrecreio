@@ -44,6 +44,7 @@ export default function Navbar() {
         <ul>
           <Link className='link' to='/about' onClick={handleToggleMenu}><p>Sobre</p></Link>
           <Link className='link' to='/services' onClick={handleToggleMenu}><p>Serviços</p></Link>
+          <Link className='link' to='/contact' onClick={handleToggleMenu}><p>Contato</p></Link>
         </ul>
       </nav>
       </header>

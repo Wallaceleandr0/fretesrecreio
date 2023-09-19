@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "icon": "email.png",
+        "title": "E-mail",
+        "message": "Tem alguma duvida?",
+        "contact": "felipeconforte@gmail.com"
+    },
+    {
+        "id": 2,
+        "icon": "telefone.png",
+        "title": "Telefone",
+        "message": "Você pode ligar a qualquer hora",
+        "contact": "(21) 97007-7278"
+    },
+    {
+        "id": 3,
+        "icon": "whatsapp.png",
+        "title": "Whatsapp",
+        "message": "Precisa entrar em contato urgente?",
+        "contact": "(21) 97007-7278"
+    }
+]

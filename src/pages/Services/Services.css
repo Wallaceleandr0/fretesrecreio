@@ -3,10 +3,16 @@
 }
 
 .services h3 {
-    margin: 15px 0;
+    margin-top: 20px;
     color: #fff;
-    padding: 25px;
+    padding: 5px;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     background-color: #28292B;
+    font-weight: 900;
 }
 
 .images-flex {
