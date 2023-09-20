@@ -17,7 +17,7 @@ function Services() {
     <div className='services'>
       <h3>SERVIÇOS</h3>
       <Card />
-      <a href='#'>Fazer Orçamento</a>
+      <a href='https://wa.me/5521970077278?text=Gostaria%20de%20solicitar%20um%20orçamento!'>Fazer Orçamento</a>
       <div className='images-flex'>
       {images.map((img, index) => (
         <img src={img} key={index}/>
