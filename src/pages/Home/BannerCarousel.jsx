@@ -26,7 +26,7 @@ const BannerCarousel = () => {
       <Slider {...settings}>
         {images.map((image, index) => (
           <div key={index} >
-            <img src={image} alt={`Banner ${index + 1}`} style={{ width: "100%", objectFit: "cover", height: "100%" }} />
+            <img src={image} alt={`Banner ${index + 1}`} style={{ width: "100%", objectFit: "cover" }} />
           </div>
         ))}
       </Slider>
