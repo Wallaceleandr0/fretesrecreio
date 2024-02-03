@@ -14,12 +14,12 @@ header {
   }
 
 .icon img {
-    max-width: 130px;
+    max-width: 90px;
 
 }
 
 .nav {
-    background-color: #7A83A2;
+    background-color: #113B65;
     color: #fff;
     display: flex;
     align-items: stretch;
@@ -74,7 +74,7 @@ header {
     width: 30px;
     height: 3px;
     margin-top: 7px;
-    background-color: #2D2C2E;
+    background-color: #fff;
   }
   
   .active .line-hamburguer:nth-child(1) {
@@ -126,7 +126,7 @@ header {
       }
 
     .icon img {
-      width: 100px;
+      width: 65px;
     }
 
     ul .link  {
